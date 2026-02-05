@@ -8,7 +8,7 @@ public class BusTicketFareSystem_15 {
 		
         Scanner sc = new Scanner(System.in);
      
-        System.out.print("Enter route type (City / Intercity / Night): ");
+        System.out.print("Enter route type (City/ Intercity / Night): ");
         String routeType = sc.next();
 
         System.out.print("Enter age: ");
