@@ -1,19 +1,17 @@
 package com.batch.exercises;
-
 import java.util.Scanner;
-
 public class VoteCounterSystem_18 
 {
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Number of Votes: ");
-		int n = sc.nextInt();
+		int number_of_votes = sc.nextInt();
 		int count[] = new int[4];
 		int invalid = 0;
 		
 		System.out.println("Enter vote (1 to 4): ");
-		for(int i=0; i<n; i++)
+		for(int i=0; i<number_of_votes; i++)
 		{
 			int vote = sc.nextInt();
 			if(vote>=1 && vote<=4)
