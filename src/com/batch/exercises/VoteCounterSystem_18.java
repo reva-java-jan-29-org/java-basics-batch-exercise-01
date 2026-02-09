@@ -9,7 +9,6 @@ public class VoteCounterSystem_18
 		int number_of_votes = sc.nextInt();
 		int count[] = new int[4];
 		int invalid = 0;
-		
 		System.out.println("Enter vote (1 to 4): ");
 		for(int i=0; i<number_of_votes; i++)
 		{
